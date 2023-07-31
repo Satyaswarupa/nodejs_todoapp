@@ -5,16 +5,15 @@ const schema = new mongoose.Schema({
     type: Date,
     required: true,
   },
-  name:{
+  name: {
     type: String,
     required: true,
   },
-  
-  foodName: {
+  activity: {
     type: String,
     required: true,
   },
-  calorie: {
+  calorieBurned: {
     type: Number,
     required: true,
   },
@@ -33,4 +32,4 @@ const schema = new mongoose.Schema({
   },
 });
 
-export const Task = mongoose.model("Task", schema);
+export const Activity = mongoose.model("Activity", schema);
