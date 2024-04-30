@@ -4,9 +4,9 @@
 
 "builds": [
 
-{ "src": "".js", "use": "@vercel/node" }
+{ "src": "*.js", "use": "@vercel/node" }
 
-1,
+],
 
 "routes":[
 
@@ -17,5 +17,6 @@
 "dest": "/"
 
 }
+]
 
 }
